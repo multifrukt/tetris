@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  tetris:
+    build: .
+    ports:
+      - "80:80"
